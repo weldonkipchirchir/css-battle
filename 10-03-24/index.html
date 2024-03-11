@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Battle</title>
+	<style>
+		body {
+			display: grid;
+			place-items: center;
+			min-height: 97vh;
+			background: radial-gradient(#fff, #8b8783);
+		}
+
+		.outer-container {
+			height: 300px;
+			width: 400px;
+			background: #F48B26;
+		}
+
+		.outer-container * {
+			background: #fff;
+		}
+
+		.inner-container {
+			height: 180px;
+			margin: 120px 110px 0
+		}
+
+		p {
+            background: #fff;
+            position: fixed;
+            padding: 30px;
+            border-radius: 50%;
+            margin: -30px 60px;
+            box-shadow: 0 0 0 21px #F48B26, 0 -65px 0 -16px #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="outer-container">
+		<div class="inner-container">
+			<p></p>
+		</div>
+	</div>
+</body>
+
+</html>
